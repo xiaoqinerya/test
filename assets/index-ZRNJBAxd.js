@@ -1,0 +1,1 @@
+import{s as t,t as s}from"./index-BiiIy8BH.js";async function n(r){const e=await t.Post("/acting/GetMerchantPay",r);return e.code===0?e.data:Promise.reject(new Error(s("msg."+e.message)))}async function o(r){const e=await t.Post("/usdt/SendUsdt",r);return e.code===0?e.data:Promise.reject(new Error(s("msg."+e.message)))}export{n as p,o as w};
